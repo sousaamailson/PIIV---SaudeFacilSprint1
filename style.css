@@ -118,3 +118,19 @@ main form input[type="submit"] {
 
 main form input[type="submit"]:hover {
     background: #660000;
+    
+}
+
+@media only screen and (max-width: 450px) {
+    main h1 {
+        font-size: 2rem;
+    }
+
+    main .ou span {
+        font-size: 0.8rem;
+    }
+
+    main form label span, main form input[type="submit"] {
+        font-size: 1rem;
+    }
+}
